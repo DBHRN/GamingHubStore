@@ -1,18 +1,18 @@
 //GET
 const listaProductos = () =>
-  fetch("http://localhost:3000/producto")
+  fetch("https://dbhrn.github.io/GamingHubStore/producto")
     .then((resposta) => resposta.json())
     .catch((error) => console.log(error));
 
 const listarUnProduto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).then((resposta) => {
+  return fetch(`https://dbhrn.github.io/GamingHubStore/producto/${id}`).then((resposta) => {
     return resposta.json();
   });
 };
 
 //POST
 const creaProdutos = (name, imageUrl, price, description, tipo) => {
-  return fetch(`http://localhost:3000/producto`, {
+  return fetch(`https://dbhrn.github.io/GamingHubStore/producto`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -35,7 +35,7 @@ const creaProdutos = (name, imageUrl, price, description, tipo) => {
 
 // PUT/PATCH
 const alteraProduto = async (id, imageUrl, name, price, description) => {
-  return fetch(`http://localhost:3000/producto/${id}`, {
+  return fetch(`https://dbhrn.github.io/GamingHubStore/producto/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",
@@ -55,7 +55,7 @@ const alteraProduto = async (id, imageUrl, name, price, description) => {
 
 // DELETE
 const deleteProducto = async (id) => {
-  return await fetch(`http://localhost:3000/producto/${id}`, {
+  return await fetch(`https://dbhrn.github.io/GamingHubStore/producto/${id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
