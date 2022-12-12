@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" type="text/css" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap"/>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <link rel="shortcut icon" type="imagex/png" href="../assets/logo.png" width="16" height="16">
+    <title>GamingHubStore</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-busqueda" id="logo-login">
+          <div class="logo">
+            <a href="index.html"><img src="../assets/logo.png" alt="logo"/></a>
+            <p class="logo-azul">GamingHub</p>
+            <p>Store</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="login">
+        <div class="login_title">Iniciar Sesión</div>
+        <form action="#" class="form-cadastro" data-form>
+          <div class="input-container">
+            <input
+              class="login_input__url input"
+              type="email"
+              placeholder="Escreva seu email"
+              required
+              data-tipo="email"
+              data-email
+            />
+            <span class="input-message-error ">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <input
+              class="login_input__name input"
+              type="password"
+              id="password"
+              placeholder="Escreva sua senha"
+              required
+              data-tipo="password"
+              data-password
+            />
+              <span class="input-message-error ">Este campo no es valido</span>
+          </div>
+          <div class="error-container" >
+            <p id="aviso" class="login_error">No se pudo iniciar sesión, revise bien sus datos</p>
+          </div>
+          <button type="submit" class="login_btn">Entrar</button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <section class="contato">
+    <div class="referencia-container">
+      <div class="referencia">
+        <a href="index.html"><img src="../assets/logo.png" alt="logo"/></a>
+        <p>GamingHub</p>
+        <p>Store</p>
+      </div>
+    </div>
+    <div class="links-uteis">
+      <a href="">Quienes somos</a>
+      <a href="">Política de Privacidad</a>
+      <a href="">Programa de fidelidad</a>
+      <a href="">Nuestras Tiendas</a>
+      <a href="">Quiero ser franquiciado</a>
+      <a href="">Anuncie aquí</a>
+    </div>
+
+
+  </section>
+  <script type="module" src="../controllers/login-controller.js"></script>
+  <script type="module" src="../controllers/app-controller.js"></script>
+  <script type="module" src="../controllers/update_controller.js"></script>
+</html>

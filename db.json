@@ -1,0 +1,236 @@
+{
+  "producto": [
+    {
+      "name": "Cyberpunk 2077",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1663663573",
+      "price": "1299",
+      "description": "Elige tu camino de vida en un mundo futurista e increíble como lo es CyberPunk 2077",
+      "tipo": "Videojuego",
+      "id": "916e33f7-913c-4c56-aaea-a2f8f0546aed"
+    },
+    {
+      "name": "Sims 4",
+      "imageUrl": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/09/los-sims-4-scaled.webp?fit=2560%2C1523&quality=60&strip=all&ssl=1",
+      "price": "0",
+      "description": "Crea toda una historia para tus sims, te divertirás haciendolos aprender habilidades, forjar relaciones y además puedes tener mascotas, ¿qué esperas?",
+      "tipo": "Videojuego",
+      "id": "655219d7-a1a8-49b3-adf5-6ba718997e48"
+    },
+    {
+      "name": "GTA V",
+      "imageUrl": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/9k922a7212kao3/59a05cd4bc90a814ee52dceb30d70de2c1946953.jpg",
+      "price": "280",
+      "description": "Juego de acción en una ciudad de mundo abierto, de ti depende que camino quieres tomar en la gran ciudad",
+      "tipo": "Videojuego",
+      "id": "bf1a528d-fa81-4715-99cc-93001280fca3"
+    },
+    {
+      "name": "Maneater",
+      "imageUrl": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA14538_00/7/i_1dbc60bd015bfb1ecb0990b9484ad19b4ba86ea0e8d183138bfbf89d78d18d98/i/icon0.png",
+      "price": "430",
+      "description": "Sobrevive a las amenazas presentes para un tiburon ¿Podrás hacerlo?",
+      "tipo": "Videojuego",
+      "id": "91c484c4-1f95-49a1-ad56-b238d54a7968"
+    },
+    {
+      "name": "Tomb Raider",
+      "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/capsule_616x353.jpg?t=1667573087",
+      "price": "830",
+      "description": "Lara Croft enfrenta un nuevo reto al buscar un tesoro en latinoamérica ¿Serás capáz de completarlo?",
+      "tipo": "Videojuego",
+      "id": "3ba2a248-2403-45bb-919a-659e286b870c"
+    },
+    {
+      "name": "Resident Evil 7",
+      "imageUrl": "https://image.api.playstation.com/cdn/UP0102/CUSA04772_00/cxd9vkFOAHVwwYG7lQKENGkrfyoAChNh.png",
+      "price": "159",
+      "description": "Ethan se embarca en una aventura para encontrar a su esposa, pero pasa algo inesperado ¿Podrá salvarla?",
+      "tipo": "Videojuego",
+      "id": "1850b8bd-b3d3-450f-8da8-abf210683ce5"
+    },
+    {
+      "name": "SOMA",
+      "imageUrl": "https://cdn1.epicgames.com/undefined/offer/SOMA_promo-2560x1440-e92be1297f6234f9171ae88de27b92f0.jpg",
+      "price": "40",
+      "description": "Simon tiene un accidente que cambia su destino y a lo largo de su aventura en el futuro se da cuenta de algo sorprendente.",
+      "tipo": "Videojuego",
+      "id": "5f6b5d5f-cc7d-4e08-a011-2bc42ca788c3"
+    },
+    {
+      "name": "Amoung us",
+      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202107/0115/D5IIJwm65MLMPENwWzzO7rjd.png",
+      "price": "45",
+      "description": "¡Juega y diviértete con tus amigos descubriendo quien es el impostor en la nave!",
+      "tipo": "Videojuego",
+      "id": "d42a256d-7c09-4531-82f4-a7ffcc1e95b6"
+    },
+    {
+      "name": "Call of the wild",
+      "imageUrl": "https://i.ytimg.com/vi/lhlsde4YoXc/maxresdefault.jpg",
+      "price": "38",
+      "description": "Adéntrate en el bosque y aprende a cazar animales, seguir sus rastros y admirar la naturaleza",
+      "tipo": "Videojuego",
+      "id": "49d0a4a6-3fe6-4934-8745-bd4a69435a33"
+    },
+    {
+      "name": "PC B. simulator",
+      "imageUrl": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_OverclockedEditionContent_TheIrregularCorporation_DLC_S2_1200x1600-20dddf91963b2d928b9717db030c51c0",
+      "price": "189",
+      "description": "Recibe pedidos de cambios de piezas o mantenimiento en la PC de los clientes, el reto es hacerlo en buena calidad y adaptado al presupuesto del cliente",
+      "tipo": "Videojuego",
+      "id": "38f06b47-56a7-48a2-808a-4629202eb2f0"
+    },
+    {
+      "name": "STEEP",
+      "imageUrl": "https://image.api.playstation.com/cdn/UP0001/CUSA05489_00/53GCPGBH6JqsXAVQkhfbpD7Fs9oPcfEH.png",
+      "price": "599",
+      "description": "¡Participa en concursos de patinaje sobre nieve, ski, paracaidismo y demás aquí!",
+      "tipo": "Videojuego",
+      "id": "22bb3e99-f512-440f-bfd0-92c209e89f30"
+    },
+    {
+      "name": "Genshin Impact",
+      "imageUrl": "https://image.api.playstation.com/vulcan/img/rnd/202104/2507/Xdncb153Sz5UZMaF0X944NP5.png",
+      "price": "0",
+      "description": "Cientos de aventuras y poderes que puedes descubrir aquí en tu camino a buscar a tu hermano/a, también puedes jugar con amigos",
+      "tipo": "Videojuego",
+      "id": "12e31a57-3652-4d33-aacd-f8b1ad0fb985"
+    },
+    {
+      "name": "PlayStation 4",
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/05/19/14/09/ps4-2326616_960_720.jpg",
+      "price": "8500",
+      "description": "En esta consola puedes jugar miles de juegos y divertirte",
+      "tipo": "Consola",
+      "id": "8178a6c5-00c8-466f-84fe-ffa8db72c0cf"
+    },
+    {
+      "name": "PlayStation 5",
+      "imageUrl": "https://cdn.pocket-lint.com/r/s/1201x/assets/images/154419-games-review-hands-on-playstation-5-hands-on-pics-image1-tbq3hzlrkw.jpg",
+      "price": "12599",
+      "description": "En esta consola puedes jugar miles de juegos y divertirte con una calidad superior al Playstation 4",
+      "tipo": "Consola",
+      "id": "d23ce17f-f3cd-46d2-bf44-c88f8f64c63f"
+    },
+    {
+      "name": "Xbox Series X",
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/03/24/18/38/xbox-4965065_960_720.jpg",
+      "price": "12599",
+      "description": "En esta consola puedes jugar miles de juegos y divertirte",
+      "tipo": "Consola",
+      "id": "356ab529-a076-4d40-8c47-682d32d7fb81"
+    },
+    {
+      "name": "Xbox Series S",
+      "imageUrl": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/11/analisis-xbox-series-s-computerhoy-2131659.jpg",
+      "price": "6279",
+      "description": "En esta consola puedes jugar miles de juegos y divertirte, aunque es una versión más accesible que el Xbox Series X ¡No decepciona!",
+      "tipo": "Consola",
+      "id": "92ae8838-8191-417d-995f-cc849f670b0d"
+    },
+    {
+      "name": "Nintendo Switch",
+      "imageUrl": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.625/c_scale,w_500/ncom/en_US/switch/videos/heg001-07060600/posters/oled-model",
+      "price": "7797",
+      "description": "En esta consola puedes jugar varios exclusivos de  nintendo y divertirte en cualquier lugar pues es portatil",
+      "tipo": "Consola",
+      "id": "73ad80dc-e3d9-4477-ada2-d75f73d80604"
+    },
+    {
+      "name": "ASUS ROG Zephyrus",
+      "imageUrl": "https://s.yimg.com/os/creatr-uploaded-images/2020-06/47a03b90-ba1e-11ea-b6e7-9e0dc9d1e9b5",
+      "price": "36500",
+      "description": "Con esta laptop el gaming no tiene límites, sus componentes y su arquitectura hacen posible que una noche de videojuegos sea inolvidable",
+      "tipo": "Consola",
+      "id": "5f9eea52-8e7e-4d99-9376-2f4ae02bcf7d"
+    },
+    {
+      "name": "Asus TUF F17",
+      "imageUrl": "https://hipc.jp/wp-content/uploads/2021/02/2021-02-22-12.54.21-546x410.jpg",
+      "price": "29999",
+      "description": "Con esta laptop el gaming no tiene límites, sus componentes y su arquitectura hacen posible que una noche de videojuegos sea inolvidable",
+      "tipo": "Consola",
+      "id": "b6632196-9e41-4663-9d89-edc0ae0a8081"
+    },
+    {
+      "name": "Asus Rog Phone",
+      "imageUrl": "https://i.blogs.es/0686cd/asus-rog-phone/1366_2000.jpg",
+      "price": "9215",
+      "description": "Con esta teléfono el gaming no tiene límites, sus componentes y su arquitectura hacen posible que una noche de videojuegos sea inolvidable",
+      "tipo": "Consola",
+      "id": "e0984291-20db-4166-9cb7-1d15273e4c36"
+    },
+    {
+      "name": "Mando Xbox Elite",
+      "imageUrl": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE38OEp?ver=7630",
+      "price": "2879",
+      "description": "Mando para usar el Xbox Series X, con este mando podrá tener una buena sensación al jugar",
+      "tipo": "Otro",
+      "id": "ec9dc11e-c21b-47a4-a751-9ba4c9fd181a"
+    },
+    {
+      "name": "Mando PlayStation 5",
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/01/07/10/38/playstation-6921618_960_720.jpg",
+      "price": "1079",
+      "description": "Mando inalámbrico para usar el PlayStation 5, con este mando podrá tener una buena sensación al jugar",
+      "tipo": "Otro",
+      "id": "68ada184-6c59-474e-bab0-230f915e23bf"
+    },
+    {
+      "name": "Razer Kraken Ulti",
+      "imageUrl": "https://assets2.razerzone.com/images/pnx.assets/70c42a177e80060fed962dda06120724/razer-kraken-x-hero-mobile.jpg",
+      "price": "2519",
+      "description": "Audífonoos Gamer de una calidad excelente, tienen un sistema de sonido excelente para sentirse inmerso en el sonido y el contenido que se esté consumiendo",
+      "tipo": "Otro",
+      "id": "34f5b581-e940-4cca-8210-e650ed28fe84"
+    },
+    {
+      "name": "Silla Gamer Razer",
+      "imageUrl": "https://assets2.razerzone.com/images/pnx.assets/47c742e62a18856078d75a01be8a2b75/iskurx-hero-mobile.jpg",
+      "price": "6749",
+      "description": "¡Con esta silla puede pasar horas haciendo sus pasatiempos o deberes en la oficina sin cansancio!",
+      "tipo": "Otro",
+      "id": "346e6d5e-fbed-4d8a-b252-2a76bbcfd813"
+    },
+    {
+      "name": "Teclado Mecánico",
+      "imageUrl": "https://rebelcry.com/img/2021/03/26/1616758978-teclado-mecanico-story-miniature-560x315.jpg",
+      "price": "829",
+      "description": "Este teclado cuenta con una sensación muy agradable al tanto y está equipado para cualquier tipo de juego",
+      "tipo": "Otro",
+      "id": "24e95c5c-0665-4e1c-a295-f8ce91a5c416"
+    },
+    {
+      "name": "Mouse Gamer",
+      "imageUrl": "https://visiongeek.pe/wp-content/uploads/Los-mejores-mouse-Gamer-en-AliExpress.jpg",
+      "price": "2120",
+      "description": "Este mouse está bastante equipado para horas increíbles de gaming",
+      "tipo": "Otro",
+      "id": "844d05c2-be02-4c2a-9abb-8b95b520b654"
+    },
+    {
+      "name": "Tapete para Mouse",
+      "imageUrl": "https://m.media-amazon.com/images/I/61PsH13T7YL._AC_SY355_.jpg",
+      "price": "200",
+      "description": "Este tapete mouse hace que el gaming sea más satisfactorio",
+      "tipo": "Otro",
+      "id": "be8ce472-7b1e-45b4-a93a-201fe032d982"
+    },
+    {
+      "name": "Gorra Enderman",
+      "imageUrl": "https://i5.walmartimages.com/asr/08992ff9-97af-4622-bde7-40ee0f6b2970_1.c4d7a398a09e827a95c15eee0a19f4cc.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff",
+      "price": "299",
+      "description": "¡Complementa tu outfit con esta cool gorra de enderman!",
+      "tipo": "Otro",
+      "id": "fd0bfd00-c708-4732-a153-10d86ee5840c"
+    }
+  ],
+  "perfil": [
+    {
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "id": 1
+    }
+  ]
+}

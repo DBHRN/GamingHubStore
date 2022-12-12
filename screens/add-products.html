@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" type='text/css' content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap">
+  <link rel="shortcut icon" type="imagex/png" href="../assets/logo.png" width="16" height="16">
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/add-products.css" />
+  <title>GamingHubStore</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <div class="logo-busqueda">
+              <div class="logo">
+                <a href="index.html"><img src="../assets/logo.png" alt="logo"/></a>
+                <p class="logo-azul">GamingHub</p>
+                <p>Store</p>
+              </div>
+          </div>
+        </div>
+          <input id="buscar" class="buscador" i type="text" placeholder="Qué deseas buscar?" data-search/>
+        <div class="login">
+          <a href="login.html"><button type="submit">Login</button></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="product-add">
+        <div class="product-add_title">Agregar nuevo produto</div>
+        <form class="form-cadastro" data-form>
+          <img src="" data-url-image class="urlImage" />
+          <div class="input-container">
+            <input
+              class="product-add_input__url input"
+              type="text"
+              placeholder="URL de la Imagen del Producto"
+              required
+              data-tipo="url"
+              data-url
+            />
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <input
+              class="product-add_input__name input"
+              type="text"
+              placeholder="Nome do produto"
+              required
+              data-tipo="nombre"
+              data-nome
+            />
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <input
+              class="product-add_input__price input"
+              type="text"
+              placeholder="Preço do produto"
+              required
+              data-tipo="precio"
+              pattern="^[0-9]{1,7}$"
+              data-preco
+            />
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <textarea
+              class="product-add_textarea__description input"
+              type="text"
+              placeholder="Descripcion del producto"
+              data-tipo="descripcion"
+              data-descripcion
+            ></textarea>
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+              <legend>¿A qué tipo pertenece el producto?</legend>
+              <select required data-select>
+                  <option>Videojuego</option>
+                  <option>Consola</option>
+                  <option>Otro</option>
+              </select>
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <button type="submit" class="product-add_btn">
+            Adicionar produto
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <section class="contato">
+    <div class="referencia-container">
+      <div class="referencia">
+        <a href="index.html"><img src="../assets/logo.png" alt="logo"/></a>
+        <p>GamingHub</p>
+        <p>Store</p>
+      </div>
+    </div>
+    <div class="links-uteis">
+      <a href="">Quienes somos</a>
+      <a href="">Política de Privacidad</a>
+      <a href="">Programa de fidelidad</a>
+      <a href="">Nuestras Tiendas</a>
+      <a href="">Quiero ser franquiciado</a>
+      <a href="">Anuncie aquí</a>
+    </div>
+  </section>
+  <script type="module" src="../controllers/crea-productos-controller.js"></script>
+  <script type="module" src="../controllers/app-controller.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      type="text/css"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/edit-product.css" />
+    <link rel="shortcut icon" type="imagex/png" href="../assets/logo.png" width="16" height="16">
+    <title>GamingHubStore</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <div class="logo-busqueda">
+              <div class="logo">
+                <a href="index.html"><img src="../assets/logo.png" alt="logo"/></a>
+                <p class="logo-azul">GamingHub</p>
+                <p>Store</p>
+              </div>
+          </div>
+        </div>
+          <input id="buscar" class="buscador" i type="text" placeholder="Qué deseas buscar?" data-search/>
+      </nav>
+    </header>
+    <section class="geral-products">
+      <div class="products_title">Editar producto</div>
+      <section class="products-section" data-allProducts>
+        <form action="#" class="form-control" data-form>
+          <img src="" data-url-image />
+          <div class="input-container">
+            <input
+              class="product-add_input__url input"
+              type="text"
+              placeholder="URL de la Imagen del Producto"
+              required
+              data-tipo="url"
+              data-url
+            />
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <input
+              class="product-add_input__name input"
+              type="text"
+              placeholder="Nombre del producto"
+              required
+              data-tipo="nombre"
+              data-nombre
+            />
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <input
+              class="product-add_input__price input"
+              type="text"
+              placeholder="Precio del producto"
+              required
+              pattern="^[0-9]{1,7}$"
+              data-tipo="precio"
+              data-precio
+            />
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <div class="input-container">
+            <textarea
+              class="product-add_textarea__description input"
+              type="text"
+              placeholder="Descripcion del producto"
+              data-tipo="descripcion"
+              data-descripcion
+            ></textarea>
+            <span class="input-message-error">Este campo no es valido</span>
+          </div>
+          <button type="submit" class="product-submit_btn">
+            Actualizar producto
+          </button>
+        </form>
+      </section>
+    </section>
+  </body>
+  <section class="contato">
+    <div class="referencia-container">
+      <div class="referencia">
+        <a href="index.html"><img src="../assets/logo.png" alt="logo"/></a>
+        <p>GamingHub</p>
+        <p>Store</p>
+      </div>
+    </div>
+    <div class="links-uteis">
+      <a href="">Quienes somos</a>
+      <a href="">Política de Privacidad</a>
+      <a href="">Programa de fidelidad</a>
+      <a href="">Nuestras Tiendas</a>
+      <a href="">Quiero ser franquiciado</a>
+      <a href="">Anuncie aquí</a>
+    </div>
+  </section>
+  <script
+    type="module"
+    src="../controllers/actualiza-producto-controller.js"
+  ></script>
+  <script type="module" src="../controllers/app-controller.js"></script>
+</html>

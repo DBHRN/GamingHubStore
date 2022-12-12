@@ -1,0 +1,206 @@
+.volver-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.volver-image {
+    display: flex;
+	gap: 0.4rem;
+	margin-right: 10px;
+    margin-top: 0.7em;
+    width: 15px;
+	height: 15px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.volver {
+    font-weight: bold;
+	margin-top: 0.7em;
+	color: var(--azul-destaque);
+	display: flex;
+	padding: 30px;
+    font-size: 1.2em;
+    padding-left: 5px;
+}
+
+.producto-info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3em 5em;
+    gap: 4em;
+}
+
+
+
+.imagen-producto-container {
+    grid-column: 1 / 2;
+    width: 100%;
+    box-shadow: 32px 19px 49px -5px rgba(0,0,0,0.46);
+    border-radius: 10px;
+    height: 70vh;
+}
+.imagen-producto {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.producto-info {
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    width: 70%;
+}
+.producto-nombre-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    height: 100%;
+    font-size: 3.5em;   
+}
+.producto-precio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: end;
+    height: 100%;
+    font-size: 2.2em;
+}
+.producto-descripcion {
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    height: 100%;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+    .producto-info-section {
+        grid-template-rows: 85% 15%;
+        grid-template-columns: 100%;
+        margin: 0;
+        
+    }
+    .imagen-producto-container {
+        grid-row: 1 / 2;
+        grid-column: 1/2;
+        width: 100%;
+    }
+    .producto-info {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+
+    }
+    .producto-nombre-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        height: auto;
+        font-size: 3.5em;
+        margin: -1em auto;
+    }
+    .producto-nombre {
+        display: flex;
+        justify-content: center;
+
+    }
+    .precio_descripcion_container {
+        margin-top: -3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1.5em;
+    }
+    .producto-precio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        height: 100%;
+        font-size: 2.2em;
+
+    }
+    .producto-descripcion {
+        display: flex;
+        flex-direction: column;
+        justify-content: justify;
+        height: 100%;
+        font-size: 1.2em;
+    }
+}
+  @media screen and (max-width: 1024px) {
+    .producto-info-section {
+        grid-template-rows: 85% 15%;
+        grid-template-columns: 100%;
+        margin: 0;
+        
+    }
+    .imagen-producto-container {
+        grid-row: 1 / 2;
+        grid-column: 1/2;
+        width: 100%;
+    }
+    .producto-info {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 2fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+
+    }
+    .producto-nombre-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        height: auto;
+        font-size: 3.5em;
+        margin: -1em auto;
+    }
+    .producto-nombre {
+        display: flex;
+        justify-content: center;
+
+    }
+    .precio_descripcion_container {
+        margin-top: -3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .producto-precio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        height: 100%;
+        font-size: 2.2em;
+
+    }
+    .producto-descripcion {
+        display: flex;
+        flex-direction: column;
+        justify-content: justify;
+        height: 100%;
+        font-size: 1.2em;
+    }
+  }
