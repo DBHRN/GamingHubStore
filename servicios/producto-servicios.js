@@ -5,7 +5,7 @@ const listaProductos = () =>
     .catch((error) => console.log(error));
 
 const listarUnProduto = (id) => {
-  return fetch(router + `/${id}`).then((resposta) => {
+  return fetch(`https://dbhrn.github.io/GamingHubStore/${id}`).then((resposta) => {
     return resposta.json();
   });
 };
