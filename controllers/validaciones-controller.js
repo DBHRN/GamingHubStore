@@ -4,15 +4,11 @@ export function validar(input) {
     validadores[tipodeInput](input);
 }
   if (input.validity.valid) {
-      console.log("Dios te ama")
       input.parentElement.classList.remove("input-container--invalid");
       input.parentElement.querySelector(".input-message-error").textContent = "";
   }else{
-      console.log("Dios te odia")
-      console.log(mostrarError(tipodeInput, input))
       input.parentElement.classList.add("input-container--invalid");
       input.parentElement.querySelector(".input-message-error").textContent = mostrarError(tipodeInput, input);
-      console.log(mostrarError(tipodeInput, input))
     }
 };
 const tiposdeErrores = [
@@ -55,7 +51,6 @@ function mostrarError(tipodeInput, input) {
   let mensaje = "";
   tiposdeErrores.forEach((error) => {
       if (input.validity[error]) {
-          console.log("Debes morir")
           mensaje = mensajesdeError[tipodeInput][error];
       }
   });
