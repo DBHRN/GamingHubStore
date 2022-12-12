@@ -1,12 +1,15 @@
 {
-  "name": "GamingHubStore",
+  "name": "bankingapp-mock-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "json-server --watch db.json"
+    "start" : "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
 }
