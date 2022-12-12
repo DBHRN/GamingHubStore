@@ -1,11 +1,11 @@
 //GET
 const listaProductos = () =>
-  fetch("http://localhost:3000/producto")
+  fetch("router")
     .then((resposta) => resposta.json())
     .catch((error) => console.log(error));
 
 const listarUnProduto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).then((resposta) => {
+  return fetch(`router/${id}`).then((resposta) => {
     return resposta.json();
   });
 };
