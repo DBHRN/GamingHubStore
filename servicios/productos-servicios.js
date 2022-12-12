@@ -1,4 +1,4 @@
-const listaProductos = () => fetch(" router").then(respuesta => respuesta.json());
+const listaProductos = () => fetch(server + "/producto").then(respuesta => respuesta.json());
 
 
 
