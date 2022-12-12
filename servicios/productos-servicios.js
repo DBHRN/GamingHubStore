@@ -1,4 +1,4 @@
-const listaProductos = () => fetch("https://dbhrn.github.io/GamingHubStore/producto").then(respuesta => respuesta.json());
+const listaProductos = () => fetch("https://gaminghubstore.onrender.com/producto").then(respuesta => respuesta.json());
 
 
 
