@@ -1,5 +1,6 @@
 import { productoServices } from "../servicios/producto-servicios.js";
 import { buscar } from "./buscador-controller.js";
+import { formatPrice } from "../formatterPrices.js";
 
 const nuevoProduto = (name, price, imageUrl, id) => {
   const card = document.createElement("div");
@@ -31,7 +32,7 @@ searchBox.addEventListener("keyup", (evento) => {
 const banner = document.querySelector("[data-banner]");
 const renderBanner = async () => {
   try {
-    banner.parentElement.style.backgroundImage = `url(../assets/banner_index.png) `;
+    banner.parentElement.style.backgroundImage = `url(assets/banner_index.png) `;
   } catch (error) {
     console.log(error);
   }
@@ -40,6 +41,7 @@ const renderBanner = async () => {
 const render = async () => {
   try {
     const listaProductos = await productoServices.listaProductos();
+    console.log(listaProductos);
     listaProductos.forEach((elemento) => {
       if (elemento.tipo === "Videojuego" && videojuegos.childElementCount < 5) {
         console.log(videojuegos)
