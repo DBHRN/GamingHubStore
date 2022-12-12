@@ -9,3 +9,8 @@ server.use('', router)
 server.listen(process.env.PORT || 5000, () => {
   console.log('JSON Server is running')
 })
+
+export const serverurls = {
+  server,
+  router,
+}

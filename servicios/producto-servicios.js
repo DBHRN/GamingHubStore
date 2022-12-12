@@ -1,4 +1,5 @@
 //GET
+import { serverurls } from "../server.js";
 const listaProductos = () =>
   fetch(server + "/producto")
     .then((resposta) => resposta.json())
