@@ -1,7 +1,6 @@
 //Fetch API
 
-import { serverurls } from "../server.js";
-const listaClientes = () => fetch("http://localhost:3000/perfil").then((respuesta) => respuesta.json());
+const listaClientes = () => fetch("https://dbhrn.github.io/GamingHubStore/perfil").then((respuesta) => respuesta.json());
 
 
 export const clientServices = {

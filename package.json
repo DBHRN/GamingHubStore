@@ -1,9 +1,9 @@
 {
-  "name": "bankingapp-mock-api",
+  "name": "gaminghubstore",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "index.html"
   },
   "keywords": [],
   "author": "",

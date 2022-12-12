@@ -1,6 +1,4 @@
-import { serverurls } from "../server.js";
-
-const listaProductos = () => fetch(router + "/producto").then(respuesta => respuesta.json());
+const listaProductos = () => fetch("https://dbhrn.github.io/GamingHubStore/producto").then(respuesta => respuesta.json());
 
 
 
