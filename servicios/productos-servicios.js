@@ -1,6 +1,6 @@
 import { serverurls } from "../server.js";
 
-const listaProductos = () => fetch(server + "/producto").then(respuesta => respuesta.json());
+const listaProductos = () => fetch(router + "/producto").then(respuesta => respuesta.json());
 
 
 
